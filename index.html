@@ -7,15 +7,30 @@
 </head>
 <body>
 
-<video src="./video/get.mp4" controls width="500" height="300"></video>
-<br><br>
-<audio src="./audio/rabin hod.mp3" controls></audio>
-<br><br>
-<img src="./images/images.jpg" alt="mountains" width="500" height="300">
+<nav style="display: flex; gap: 50px; margin-right: 20px;">
+    <a href="#">صفحه اصلی</a>
+    <a href="https://gmail.com">درباره ما</a>
+    <a href="https://google.com">تماس با ما</a>
+</nav>
 
 <br>
 
+<h2>فیلمی درباره <span style="color: brown;">جاوااسکریپت</span></h2>
+<p>این فیلم به بررسی یک ویژگی کاربردی درباره جاوااسکریپت می‌پردازد.</p>
+<video style="border-style: inset;" src="./video/get.mp4" controls width="500" height="300"></video>
+<br><br>
+<p>آهنگی درباره رابین هود</p>
+<audio src="./audio/rabin hod.mp3" controls></audio>
+<br><br>
+<p>عکسی درباره کوهستان</p>
+<img src="./images/images.jpg" alt="mountains" width="500" height="300">
+
+<br><br>
+
 <form>
+    <h1>فرم شخصی</h1>
+    <p>لطفاً <span style="color: red;">اطلاعات</span> خود را وارد کنید.</p>
+    <br>
     <label>نام:</label>
     <input type="text" placeholder="name....">
     <br><br>
@@ -29,9 +44,11 @@
         <input type="checkbox"> موافقت با شرایط
     </label>
     <br><br>
-    <label>
+    <label>جنسیت:
+        <br><br>
         <input type="radio" name="gender"> مرد
         <input type="radio" name="gender"> زن
+        <input type="radio" name="gender"> نمیخواهم بگویم
     </label>
     <br><br>
     <label>
@@ -46,7 +63,7 @@
             <option>کرج</option>
         </select>
     </label>
-    <br>
+    <br><br>
     <label>
         <input type="submit" value="ارسال">
     </label>
